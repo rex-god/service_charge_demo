@@ -1,0 +1,63 @@
+.donate_black {
+  margin-top: 20px;
+  padding: 25px;
+  background-color: rgb(255, 212, 204);
+  border-radius: 1rem 1rem 0 0;
+}
+
+.donate_black h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.donate_black h2 img {
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding-top: 4px;
+  margin-right: 20px;
+  margin-top: 6px;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.donate_blue {
+  background-color: #88b1b0;
+  padding: 25px;
+  height: 150px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.donate_amount .selected, .denomination_other input:checked, .donate_amount .denomination:hover {
+  background-color: #EC3029;
+  border: 0;
+}
+.donate_amount .denomination input:checked + label {
+  background-color: #EC3029;
+}
+
+.denomination {
+  float: left;
+  width: 33%;
+  text-align: center;
+  /* padding: 13px 0; */
+  cursor: pointer;
+  background-color: #171b24;
+  margin: 0 1px 1px 0;
+  transition: background-color 0.2s ease; }
+
+.denomination label {
+  font-weight: 600;
+  padding: 1px 0px;
+  width: 100%;
+  color: #FFFFFF;
+  cursor: pointer; 
+}
+
+.denomination input {
+  left: -10001px;
+  position: absolute;
+}
